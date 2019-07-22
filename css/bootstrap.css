@@ -6073,6 +6073,10 @@ button.close {
 .align-text-top {
   vertical-align: text-top !important;
 }
+.bg { height: 100%;
+  background:url(../public/images/background_login.jpg) no-repeat center;
+  background-size:contain;
+}
 
 .bg-primary {
   background-color: #007bff !important;

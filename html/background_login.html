@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>后台登录</title>
+    <meta name="viewport"
+          content="width=device-width,
+          user-scalable=no, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/bootstrap.css">
+    <script src="../js/jquery.min.js"></script>
+    <script src="../js/popper.min.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+    <style>
+        div{
+            border: 1px solid #1b1e21;
+
+        }
+    </style>
+
+</head>
+<body>
+<div class="container-fluid">
+    <div class="row bg"  style="height: 1200px ;background-color: #666666 ;opacity: 0.8">
+        <div class="col-1g-12 " >
+            <div class="navbar navbar-expand-sm bg-dark  navbar-dark" style="opacity: 1;">
+            <!--最前面不折叠的不隐藏的菜单-->
+            <a class="navbar-brand" href=""><h4>Double Dog</h4></a>
+            <!--折叠之后出现的按钮，小屏显示，大屏不显示-->
+            <button data-toggle="collapse" data-target="#content" class="navbar-toggler">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+            <!--3.折叠的导航，小屏折叠，大屏横向-->
+                <div id="content" class="collapse navbar-collapse">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a href="" class="nav-link">主页</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="" class="nav-link">关于我们</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="" class="nav-link">权限设置</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="" class="nav-link">超级管理员</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+</body>
