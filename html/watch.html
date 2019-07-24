@@ -1,0 +1,171 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <title>Home</title>
+    <!--<link href="css/style.css" rel="stylesheet" type="text/css" media="all" />-->
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <script type="text/javascript" src="../js/jquery.min.js"></script>
+    <!---开始轮播图---->
+    <link rel="stylesheet" type="text/css" href="../css/slider.css" />
+    <link rel="stylesheet" href="../css/bootstrap.css">
+    <script type="text/javascript" src="../js/modernizr.custom.28468.js"></script>
+    <script type="text/javascript" src="../js/jquery.cslider.js"></script>
+    <script type="text/javascript">
+        $(function() {
+
+            $('#da-slider').cslider({
+                autoplay	: true,
+                bgincrement	: 450
+            });
+
+        });
+    </script>
+    <style>
+        @media (min-width: 576px) {
+            .container {
+                max-width: 540px;
+            }
+        }
+
+        @media (min-width: 768px) {
+            .container {
+                max-width: 720px;
+            }
+        }
+
+        @media (min-width: 992px) {
+            .container {
+                max-width: 960px;
+            }
+        }
+
+        @media (min-width: 1200px) {
+            .container {
+                max-width: 1600px;
+            }
+        }
+
+    </style>
+
+</head>
+<body>
+<!--最上方轮播图-->
+<div class="slider_bg s7">
+    <!-- 开始da-slider-->
+    <div id="da-slider" class="da-slider">
+        <div class="da-slide">
+            <h2 class="title">唯有时间更懂爱</h2>
+            <h3 class="title">甄选情人节对表送给挚爱的人</h3>
+        </div>
+        <div class="da-slide">
+            <h2 class="title">优雅态度</h2>
+            <h3 class="title">真我个性</h3>
+        </div>
+        <div class="da-slide">
+            <h2 class="title">LONGINES</h2>
+            <h3 class="title">精湛工艺的悠久传承</h3>
+        </div>
+        <div class="da-slide">
+            <h2 class="title">LONGINES</h2>
+            <h3 class="title">高性能与优雅性格的结合</h3>
+        </div>
+        <div class="da-slide">
+            <h2 class="title">LONGINES</h2>
+            <h3 class="title">浪晴2019年新款腕表发售</h3>
+        </div>
+    </div>
+</div>
+<!--开始主菜单折叠导航栏-->
+<div class="container-fluid px-0">
+    <div class="navbar navbar-expand-sm bg-light navbar-light">
+        <!--2折叠之后出现的按钮，小屏显示，大屏不显示-->
+        <button data-toggle="collapse" data-target="#content" class="navbar-toggler">
+            <span class=" navbar-toggler-icon"></span>
+        </button>
+        <!--3.折叠的导航，小屏折叠，大屏横向-->
+        <div id="content" class="collapse navbar-collapse">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a href="" class="nav-link mx-2"><h3 class="text-muted">腕表选购</h3></a>
+                </li>
+                <li class="nav-item">
+                    <a href="" class="nav-link mx-2"><h3 class="text-muted">浪琴世界</h3></a>
+                </li>
+                <li class="nav-item">
+                    <a href="" class="nav-link mx-2"><h3 class="text-muted">品牌</h3></a>
+                </li>
+                <li class="nav-item">
+                    <a href="" class="nav-link mx-2"><h3 class="text-muted">零售店</h3></a>
+                </li>
+                <li class="nav-item">
+                    <a href="" class="nav-link mx-2"><h3 class="text-muted">搜索</h3></a>
+                </li>
+            </ul>
+        </div>
+        <!--1最前面不折叠不隐藏的菜单-->
+        <a class="navbar-brand " href="" style="float: left;left: 500px" ><img src="../public/images/logo.svg"></a>
+    </div>
+</div>
+
+<!--商品展示页面-->
+<div class="container-fluid px-0" style="background-color: #002744;">
+    <div class="container" style="background-color: #eff1f3;" >
+        <!--标题栏-->
+        <div class="row">
+          <div class="col-sm-12">
+              <h1 class="text-center text-white">畅销表款</h1>
+              <p class="text-center text-white">Elegance is an attitude 优雅态度真我个性</p>
+          </div>
+        </div>
+        <!--按钮栏-->
+        <div class="row">
+            <div class="col-sm-12">
+                <button class="btn p-3 btn-light m-sm-5 ">嘉岚系列</button>
+                <button class="btn btn-light m-sm-5">军旗系列</button>
+                <button class="btn btn-light m-sm-5">康卡斯系列</button>
+                <button class="btn btn-light m-sm-5">开创者系列</button>
+                <button class="btn btn-light m-sm-5">心月系列</button>
+            </div>
+        </div>
+        <div class="row m-sm-3">
+            <div class="col-sm-4">
+                <img class="w-100" src="../public/images/jl1.jpg">
+            </div>
+            <div class="col-sm-4">
+                <img class="w-100" src="../public/images/lj2.jpg">
+            </div>
+            <div class="col-sm-4">
+                <img class="w-100" src="../public/images/lj3.jpg">
+            </div>
+        </div>
+        <div class="row m-sm-3">
+            <div class="col-sm-4">
+                <img class="w-100" src="../public/images/lq4.jpg">
+            </div>
+            <div class="col-sm-4">
+                <img class="w-100" src="../public/images/lq5.jpg">
+            </div>
+            <div class="col-sm-4">
+                <img class="w-100" src="../public/images/lq6.jpg">
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
