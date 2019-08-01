@@ -1,0 +1,21 @@
+*{margin: 0;padding: 0;}
+/* img宽高 */
+
+/* 导航 */
+.b_1{
+  display: flex;
+  justify-content: space-around;
+  line-height: 55px;;
+}
+.f_1{
+  height: 55px;
+  background: #000;
+}
+/* 字体颜色 */
+.c_1{
+  color: #fff;
+}
+.c_1:hover{
+  color: #cc7755;
+  text-decoration: none;
+}
