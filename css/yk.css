@@ -1,0 +1,101 @@
+.d1 {
+    background: url(../public/yk_images/banner.jpg) no-repeat center top;
+    background-size: 100%;
+    min-height: 400px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.my_h1 {
+    margin-top: 80px;
+    margin-bottom: 40px;
+    padding-left: 15px;
+}
+
+.d2 {
+    margin: 3em;
+}
+
+.p {
+    margin-left: 15px;
+    padding-bottom: 15px;
+}
+
+.my_btn {
+    background-color: red;
+    color: white;
+    margin-left: 15px;
+}
+
+.d2_d1 {
+    background: url(../public/yk_images/img1.jpg) no-repeat center top;
+    height: 250px;
+}
+
+.d2_d3 {
+    background: url(../public/yk_images/img2.jpg) no-repeat center top;
+    height: 250px;
+}
+
+.d2_d1_h3 {
+    color: white;
+    margin-left: 40px;
+    padding-top: 15px;
+}
+
+.d2_d1_h4 {
+    color: white;
+    margin-left: 40px;
+    padding-top: 15px;
+    width: 100px;
+}
+
+.d2_d1_a {
+    margin-left: 40px;
+}
+
+.d3_div {
+    margin-bottom: 24px;
+}
+
+.d3_h3 {
+    border-bottom: 1px solid black;
+    padding-bottom: 24px;
+}
+
+.new {
+    background: url('../public/yk_images/new.png');
+}
+
+.d3_img1_1 {
+    position: absolute;
+    z-index: 1;
+    right: 10px;
+}
+
+.d3_img1_2 {
+    padding-bottom: 15px;
+    border-bottom: 1px solid #DBDBDB;
+}
+
+.parent {
+    background-color: #999;
+}
+
+.parent_1 {
+    border-top: 1px solid #C0BEBE;
+    border-bottom: 1px solid #C0BEBE;
+    padding-left: 20px;
+}
+
+.parent_2 {
+    border-left: 1px solid #C0BEBE;
+    border-right: 1px solid #C0BEBE;
+    border-bottom: 1px solid #C0BEBE;
+}
+
+.parent_2_1 {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 20px;
+}
