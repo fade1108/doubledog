@@ -53,3 +53,20 @@ width: 100%;
   float: right;
   position: relative;
 }
+/* 图片中托盘文字 */
+.w_1{
+  position: absolute;
+  left: 110px;bottom: 0px;
+  text-align: center;
+  color: #fff;
+  font-size: 30px;
+}
+
+.w_1_right{
+  position: absolute;
+  left: 110px;bottom: 350px;
+  text-align: center;
+  color: #fff;
+  font-size: 30px;
+
+}
