@@ -1,0 +1,96 @@
+@media (min-width: 576px) {
+    .container {
+        max-width: 540px;
+    }
+}
+
+@media (min-width: 768px) {
+    .container {
+        max-width: 720px;
+    }
+}
+
+@media (min-width: 992px) {
+    .container {
+        max-width: 960px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .container {
+        max-width: 1600px;
+    }
+}
+
+.topfont_col{
+    font-size: 22px;
+    color:#002744;
+    text-align: center;
+    line-height: 31px;
+}
+.mysmall{
+    font-size: 25px;
+    color :#666666;
+!important;
+}
+.border-right{
+    border-right: 3px solid #721c24 !important ;
+}
+
+.text-center{
+    font-size: 25px;
+    color: #f0f0f0;
+}
+.bg-bl{
+    background-color: #002744;
+}
+.bg-b2{
+    background-color: #003150  !important;
+}
+.carousel-control-prev, .carousel-control-next {
+    width: 4%;
+    height: 10%;
+    background-color: #f1b0b7;
+    border-radius: 0.5rem;
+    top: 35%;
+}
+
+.carousel-indicators li {
+    width: 1rem;
+    height: 1rem;
+    background-color: #69707a;
+    margin-left: 0.4rem;
+    margin-right: 0.4rem;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.btn-primary{
+    background-color: #002744;
+}
+.font{
+    font-size: 15px;
+    color: #999;
+    text-align: center !important;
+    font-weight: bold;
+}
+.font1{
+    font-size: 18px;
+    color: #003150;
+    font-family: 微软雅黑;
+    text-align: center !important;
+}
+
+.font2{
+    color: #fff;
+    font-size: 20px;
+}
+.font3{
+    color: #fff;
+    font-size: 3rem;
+    font-family: 微软雅黑;
+}
+.mx-lg-5{
+    margin-left: 8rem !important;
+    margin-right: 8rem !important;
+
+}

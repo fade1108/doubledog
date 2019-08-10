@@ -19,3 +19,37 @@
   color: #cc7755;
   text-decoration: none;
 }
+/*中部图片*/
+
+/* 左 */
+.left_main {
+float: left;
+  overflow: hidden;
+  width: calc(55.8% - 10px);
+  position: relative;
+}  
+.leftTop{ 
+
+width: 100%;
+position: relative;
+margin-bottom:10px; 
+}
+.leftBottom{
+  width: 100%;
+  position: relative;
+} 
+.img_1{
+display: block;
+width: 100%;
+height: 400px;
+}
+.img_2{
+display: block;
+width: 100%;
+}
+/* 右 */
+.right{
+  width: 44.2%;
+  float: right;
+  position: relative;
+}
