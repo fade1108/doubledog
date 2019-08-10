@@ -1,82 +1,100 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <title>Title</title>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<head>
+  <title>Title</title>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="../css/glass.css">
+  <!-- Bootstrap CSS -->
 
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="../css/glass.css">
+  <link rel="stylesheet" href="../css/glass.css">
+  <link rel="stylesheet" href="../css/bootstrap.css">
 
-    <link rel="stylesheet" href="../css/glass.css">
-    <link rel="stylesheet" href="../css/bootstrap.css">
-    <script src="../js/jquery.min.js"></script>
-    <script src="../js/popper.min.js"></script>
-    <script src="../js/bootstrap.min.js"></script>
+  <script src="../js/jquery.min.js"></script>
+  <script src="../js/popper.min.js"></script>
+  <script src="../js/bootstrap.min.js"></script>
   <style>
-
-
     .breadcrumb-item+.breadcrumb-item::before{
-         content: ">"
-       }
-    .carousel-indicators li {
-      width: 1rem;
-      height: 1rem;
-      background-color: #0000ff;
-      margin-left: 0.4rem;
-      margin-right: 0.4rem;
-      border-radius: 50%;
-      cursor: pointer;
+      content: ">"
     }
+
   </style>
-  </head>
-  <body>
-     <!-- 导航 -->   
-   <div class="f_1">
-     <ul class="list-unstyled b_1  mb-0 ">
-       <li><a class="c_1" href="">男士</a> </li>
-       <li><a class="c_1" href="">女士</a> </li>
-       <li><a class="c_1" href="">儿童</a> </li>
-       <li><a class="c_1" href="">定制</a> </li>
-     </ul>
-   </div>
-    <!-- 头部大轮播图 -->
-     <div id="lunbo" class=" carousel " data-ride="carousel">
-       <!--1.轮播图片-->
-       <div class="carousel-inner">
-         <div class="carousel-item active">
-           <img class="w-100" src="../public/images/g_1.jpg">
-         </div>
-         <div class="carousel-item ">
-           <img class="w-100" src="../public/images/book.jpg">
-         </div>
-         <div class="carousel-item ">
-           <img class="w-100" src="../public/images/book.jpg">
-         </div>
-         <div class="carousel-item ">
-           <img class="w-100" src="../public/images/book.jpg">
-         </div>
-         <!--3.轮播指示器-->
-         <ul class="carousel-indicators">
-           <li data-slide-to="0" data-target="#lunbo" class="active"></li>
-           <li data-slide-to="1" data-target="#lunbo"></li>
-           <li data-slide-to="2" data-target="#lunbo"></li>
-         </ul>
-       </div>
-     </div>
-  <!-- 单项首页商品展示 -->
-  <div class="container">
-    <ul class="breadcrumb  pl-lg-3 ">
-      <li class="breadcrumb-item"><a class="text-muted" href="">首页</a></li>
-      <li class="breadcrumb-item"><a class="text-muted" href="">眼睛系列</a></li>
+</head>
+<body>
+<!-- 导航 -->
+<div class="f_1">
+  <ul class="list-unstyled b_1  mb-0 ">
+    <li><a class="c_1" href="">男士</a> </li>
+    <li><a class="c_1" href="">女士</a> </li>
+    <li><a class="c_1" href="">儿童</a> </li>
+    <li><a class="c_1" href="">定制</a> </li>
+  </ul>
+</div>
+<!-- 头部大轮播图 -->
+<div class="container-fluid px-0 mx-0">
+  <div id="lunbo" class="v_1 carousel " data-ride="carousel">
+    <!-- 轮播图的图片 -->
+    <div class="carousel-inner ">
+      <div class="carousel-item active">
+        <img class="w-100"  src="../public/images/gL_1.jpg">
+      </div>
+      <div class="carousel-item">
+        <img  class="w-100" src="../public/images/gL-2.jpg">
+      </div>
+      <div class="carousel-item" >
+        <img  class="w-100 " src="../public/images/gL-3 .jpg">
+      </div>
+    </div>
+    <!-- 轮播指示器 -->
+    <ul class="carousel-indicators p-0 m-0">
+      <li data-slide-to="0" class="active" data-target="#lunbo"></li>
+      <li data-slide-to="1" data-target="#lunbo"></li>
+      <li data-slide-to="2" data-target="#lunbo"></li>
     </ul>
-  
   </div>
-   
+</div>
+<!-- 面包屑导航 -->
+<div class="container">
+  <ul class="breadcrumb  pl-lg-3 mb-0">
+    <li class="breadcrumb-item"><a class="text-muted" href="">首页</a></li>
+    <li class="breadcrumb-item"><a class="text-muted" href="">眼睛系列</a></li>
+  </ul>
+  <!-- 单项首页商品展示 -->
+  <div class="">
+    <div class="left_main col-lg-6 col-md-6 px-0 mx-0">
+      <div class="leftTop ">
+        <img class="img_1" src="../public/images/木九十光学镜.jpg" alt="">
+        <div class="w_1 mb-3">
+          <p class="mb-0">Sunglasses Collection</p>
+          <h4>木九十光学眼镜</h4>
+        </div>
+      </div>
+      <div class="leftBottom pb-sm-3 pb-md-0">
+        <img class="img_1" src="../public/images/雷朋太阳镜.jpg" alt="">
+        <div class="w_1 pb-3">
+          <p class="mb-0">Optical Collection</p>
+          <h4>雷朋遮阳眼镜</h4>
+        </div>
+      </div>
+    </div>
+    <div class="right col-lg-6 col-md-6 pr-0 px-sm-0 pl-md-2" style="height: 810px">
+      <img class="w-100 h-100" src="../public/images/专属订制.jpg" alt="">
+      <div class="w_1_right pb-3" >
+        <p class="mb-0">Exclusive custom</p>
+        <h4 >专属定制眼镜</h4>
+      </div>
+    </div>
+  </div>
+
+
+</div>
 
 
 
-  </body>
+
+
+</body>
 </html>
