@@ -68,5 +68,16 @@ width: 100%;
   text-align: center;
   color: #fff;
   font-size: 30px;
-
+}
+/* 下面是_1的css样式 */
+/* 字体大小 */
+.s_1{
+font-size: 20px;
+}
+.s_2{
+  font-size:5px; 
+}
+/* 字体样式 */
+.h_1{
+  font-family: 'Courier New', Courier, monospace;
 }
