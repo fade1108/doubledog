@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/bootstrap.css">
+    <script src="../js/jquery.min.js"></script>
+    <script src="../js/popper.min.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="../css/yk.css">
+</head>
+
+<body>
+    <div class="container">
+        <!-- 第一行div -->
+        <div class="d1">
+            <div class="row">
+                <div class="d1_1 col-lg-6"></div>
+                <div class="col-lg-6 col-sm-12">
+                    <h1 class="my_h1">随便给个标题</h1>
+                    <p class="p">随便一段话</p>
+                    <a href="" class="btn my_btn">一个超链接</a>
+                </div>
+            </div>
+        </div>
+        <!-- 第二行div -->
+        <div class="row d2">
+            <div class="col-sm-12 col-lg-6 mr-0">
+                <div class="d2_d1">
+                    <div class="">
+                        <h3 class="d2_d1_h3">2014 Chuck Taylor ALL STARS</h3>
+                        <h4 class="d2_d1_h4">NOW IN STOCK!FREE SHIPPINGSTARTING AT $24.99</h4>
+                        <a href="" class="btn my_btn d2_d1_a">一个超链接</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-12 col-md-6 ml-0">
+                <div class="d2_d3">
+                    <div class="">
+                        <h3 class="d2_d1_h3">2014 Chuck Taylor ALL STARS</h3>
+                        <h4 class="d2_d1_h4">NOW IN STOCK!FREE SHIPPINGSTARTING AT $24.99</h4>
+                        <a href="" class="btn my_btn d2_d1_a">一个超链接</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- 第三行 -->
+        <div class="d3">
+            <div class="row">
+                <div class="col-sm-12 col-md-9">
+                    <h3 class="d3_h3">FEATURED PRODUCTS</h3>
+                    <!-- 第一行放三张图片加小图片 -->
+                    <div class="row d3_div">
+                        <div class="col-lg-4 col-sm-12 d3_img1">
+                            <span>
+                                <a href="">
+                                    <img src="../public/yk_images/new.png" alt="" class="d3_img1_1">
+                                </a>
+                            </span>
+                            <a href="">
+                                <img src="../public/yk_images/1.jpg" alt="" class="d3_img1_2">
+                            </a>
+                            <h4>Sample Item Title</h4>
+                            <p>$99.99</p>
+                        </div>
+                        <div class="col-lg-4 col-sm-12 d3_img2">
+                            <span>
+                                <a href="">
+                                    <img src="../public/yk_images/new.png" alt="" class="d3_img1_1">
+                                </a>
+                            </span>
+                            <a href="">
+                                <img src="../public/yk_images/2.jpg" alt="" class="d3_img1_2">
+                            </a>
+                            <h4>Sample Item Title</h4>
+                            <p>$99.99</p>
+                        </div>
+                        <div class="col-lg-4 col-sm-12 d3_img3">
+                            <span>
+                                <a href="">
+                                    <img src="../public/yk_images/new.png" alt="" class="d3_img1_1">
+                                </a>
+                            </span>
+                            <a href="">
+                                <img src="../public/yk_images/3.jpg" alt="" class="d3_img1_2">
+                            </a>
+                            <h4>Sample Item Title</h4>
+                            <p>$99.99</p>
+                        </div>
+                    </div>
+                    <!-- 轮播图 -->
+                    <div class="mt-2">
+                        <div class="carousel" data-ride="carousul">
+                            <h3 class="d3_h3">FEATURED PRODUCTS</h3>
+                            <div class="carousel-inner">
+                                <div class="row carousel-item">
+                                    <div class="carousul-inner col-lg-4">
+                                        <span>
+                                            <img src="../public/yk_images/new.png" alt="" class="d3_img1_1">
+                                        </span>
+                                        <img src="../public/yk_images/ss4.jpg" alt="" class="d3_img1_2">
+                                        <h4>Sample Item Title</h4>
+                                        <p>$99.99</p>
+                                    </div>
+                                    <div class="carousul-inner col-lg-4">
+                                        <span>
+                                            <img src="../public/yk_images/new.png" alt="" class="d3_img1_1">
+                                        </span>
+                                        <img src="../public/yk_images/ss5.jpg" alt="" class="d3_img1_2">
+                                        <h4>Sample Item Title</h4>
+                                        <p>$99.99</p>
+                                    </div>
+                                    <div class="carousul-inner col-lg-4">
+                                        <span>
+                                            <img src="../public/yk_images/new.png" alt="" class="d3_img1_1">
+                                        </span>
+                                        <img src="../public/yk_images/ss6.jpg" alt="" class="d3_img1_2">
+                                        <h4>Sample Item Title</h4>
+                                        <p>$99.99</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="parent_2">
+                        <div class="parent_1">
+                            <h3 class="pl-1">Categories</h3>
+                        </div>
+                        <div id="parent">
+                            <!--     collapse 和 card-body 在一个div里，会卡-->
+                            <div class="card">
+                                <div class="card-header">
+                                    <a class="card-link" data-toggle="collapse" href="#c1">卡片1</a>
+                                </div>
+                                <div data-parent="#parent" id="c1" class="collapse">
+                                    <div class="card-body ">
+                                        <a href="">Men's</a><br>
+                                        <a href="">Tempor</a><br>
+                                        <a href="">Congue</a><br>
+                                        <a href="">Mazim</a><br>
+                                        <a href="">Mutationem</a><br>
+                                        <a href="">Hendreit</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <div class="card-header">
+                                    <a class="card-link" data-toggle="collapse" href="#c2">卡片2</a>
+                                </div>
+                                <div data-parent="#parent" id="c2" class="collapse">
+                                    <div class="card-body ">
+                                        <a href="">Women's</a><br>
+                                        <a href="">Sub Category1</a><br>
+                                        <a href="">Sub Category2</a><br>
+                                        <a href="">Sub Category3</a><br>
+                                        <a href="">Sub Category4</a>
+                                    </div>
+                                </div>
+                            </div>
+
+                        <div class="card">
+                            <div class="card-header">
+                                <a class="card-link" data-toggle="collapse" href="#c3">卡片3</a>
+                            </div>
+                            <div data-parent="#parent" id="c3" class="collapse">
+                                <div class="card-body ">
+                                    <a href="">Men's</a><br>
+                                    <a href="">Tempor</a><br>
+                                    <a href="">Congue</a><br>
+                                    <a href="">Mazim</a><br>
+                                    <a href="">Mutationem</a><br>
+                                    <a href="">Hendreit</a>
+                                </div>
+                            </div>
+                        </div>
+                          <div class="card">
+                            <div class="card-header">
+                                <a class="card-link" data-toggle="collapse" href="#c4">卡片4</a>
+                            </div>
+                            <div data-parent="#parent" id="c4" class="collapse">
+                                <div class="card-body ">
+                                    <a href="">Women's</a><br>
+                                    <a href="">Sub Category1</a><br>
+                                    <a href="">Sub Category2</a><br>
+                                    <a href="">Sub Category3</a><br>
+                                    <a href="">Sub Category4</a>
+                                </div>
+                            </div>
+                          </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="表格1">
+
+                </div>
+                <div id="表格2"></div>
+                <div id="轮播图"></div>
+            </div>
+        </div>
+    </div>
+    </div>
+</body>
+
+</html>
