@@ -1,5 +1,5 @@
 .d1 {
-    background: url(../public/yk_images/banner.jpg) no-repeat center top;
+    background: url(../yk_images/banner.jpg) no-repeat center top;
     background-size: 100%;
     min-height: 400px;
     width: 100%;
@@ -28,12 +28,12 @@
 }
 
 .d2_d1 {
-    background: url(../public/yk_images/img1.jpg) no-repeat center top;
+    background: url(../yk_images/img1.jpg) no-repeat center top;
     height: 250px;
 }
 
 .d2_d3 {
-    background: url(../public/yk_images/img2.jpg) no-repeat center top;
+    background: url(../yk_images/img2.jpg) no-repeat center top;
     height: 250px;
 }
 
@@ -64,7 +64,7 @@
 }
 
 .new {
-    background: url('../public/yk_images/new.png');
+    background: url('../yk_images/new.png');
 }
 
 .d3_img1_1 {

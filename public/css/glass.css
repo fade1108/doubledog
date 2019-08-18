@@ -23,18 +23,15 @@
 
 /* 左 */
 .left_main {
-<<<<<<< HEAD
 float: left;
   overflow: hidden;
-  width: calc(55.8% - 10px);
   position: relative;
 }  
 .leftTop{ 
 
 width: 100%;
 position: relative;
-margin-bottom:10px; 
-=======
+margin-bottom:10px;
   float: left;
   overflow: hidden;
   width: calc(55.8% - 10px);
@@ -45,12 +42,10 @@ margin-bottom:10px;
   width: 100%;
   position: relative;
   margin-bottom:10px;
->>>>>>> 5f6da35048e469d9275db5423f7fde917ad681e7
 }
 .leftBottom{
   width: 100%;
   position: relative;
-<<<<<<< HEAD
 } 
 .img_1{
 display: block;
@@ -60,7 +55,6 @@ height: 400px;
 .img_2{
 display: block;
 width: 100%;
-=======
 }
 .img_1{
   display: block;
@@ -70,7 +64,6 @@ width: 100%;
 .img_2{
   display: block;
   width: 100%;
->>>>>>> 5f6da35048e469d9275db5423f7fde917ad681e7
 }
 /* 右 */
 .right{
@@ -93,7 +86,7 @@ width: 100%;
   text-align: center;
   color: #fff;
   font-size: 30px;
-<<<<<<< HEAD
+
 }
 /* 下面是_1的css样式 */
 /* 字体大小 */
@@ -106,7 +99,4 @@ font-size: 20px;
 /* 字体样式 */
 .h_1{
   font-family: 'Courier New', Courier, monospace;
-=======
-
->>>>>>> 5f6da35048e469d9275db5423f7fde917ad681e7
 }
